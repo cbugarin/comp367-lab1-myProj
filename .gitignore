@@ -1,4 +1,5 @@
-﻿# Build outputs
+@"
+# Build outputs
 bin/
 obj/
 
@@ -7,6 +8,10 @@ obj/
 *.user
 *.suo
 
+# Project Properties
+Properties/
+
 # OS
 .DS_Store
 Thumbs.db
+"@ | Out-File -Encoding utf8 .gitignore
